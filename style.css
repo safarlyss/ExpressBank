@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova';
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    line-height: 1.5;
+}
+header a {
+    font-size: 10px !important;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    padding-bottom: 12px;
+    color: #231F20;
+    display: block;
+}
+
+header .separator {
+    border-right: 1px solid #EDEDED !important;
+    width: 1px;
+    display: inline-block;
+}
+
+header a {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    padding-bottom: 12px;
+    color: #231F20;
+    display: block;
+}
+
+header .active a {
+    color: #231F20;
+    text-decoration: none;
+    line-height: 16px;
+
+}
+
+header ul .list-inline {
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+header .col-12 {
+    padding: 16px 0 0 0;
+    letter-spacing: 0.12em;
+}
+
+header ul {
+    margin: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+header li.active {
+    border-bottom: 2px solid #FAA61A;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header ul .list-inline a {
+    color: #5F6369;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+header .row {
+    flex-wrap: wrap;
+    display: flex;
+    height: 35px;
+}
+
+header .search li {
+    position: relative;
+    cursor: pointer;
+}
+
+header .search {
+    margin: 0;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-transform: uppercase;
+    padding-left: 0;
+    text-align: center;
+}
+
+header .search img {
+    width: 16px;
+    margin-right: 5px;
+}
+header .top-menu{
+    color: #5F6369;
+}
+header .top-menu .list-inline-item img {
+    width: 16px;
+    margin-right: 5px;
+}
