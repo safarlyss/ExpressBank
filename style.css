@@ -115,3 +115,71 @@ header .top-menu .list-inline-item img {
     width: 16px;
     margin-right: 5px;
 }
+header .navbar-brand img{
+    margin-top: 22px;
+    vertical-align: middle;
+    border-style: none;
+}
+header .navbar-brand {
+    display: inline-block;
+    padding: 0;
+    margin-right: 0;
+}
+header .navbar_menu {
+    margin-left: 24px;
+    margin-right: auto;
+}
+header .navbar_menu ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    padding-left: 0;
+    margin-left: 130px;
+    list-style: none;
+}
+header .navbar_menu li {
+    margin-left: 20px;
+}
+header .navbar_menu li a{
+    padding: 0;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    font-size: 12px !important;
+}
+header .nav_menu_right{
+    margin-left: 100px;
+}
+header .nav_menu_right ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    float: right;
+    margin-top: -30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+header .nav_menu_right ul li {
+    max-width: 160px;
+    display: inline-block;
+}
+header .nav_menu_right ul li a{
+    padding: 0;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .personal a {
+    padding: 15px 15px !important;
+    border: 0;
+    border-radius: 8px;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    background: #FAA61A;
+}
