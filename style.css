@@ -16,6 +16,7 @@ li {
 body {
     line-height: 1.5;
 }
+
 header a {
     font-size: 10px !important;
     line-height: 16px;
@@ -108,27 +109,33 @@ header .search img {
     width: 16px;
     margin-right: 5px;
 }
-header .top-menu{
+
+header .top-menu {
     color: #5F6369;
 }
+
 header .top-menu .list-inline-item img {
     width: 16px;
     margin-right: 5px;
 }
-header .navbar-brand img{
+
+header .navbar-brand img {
     margin-top: 22px;
     vertical-align: middle;
     border-style: none;
 }
+
 header .navbar-brand {
     display: inline-block;
     padding: 0;
     margin-right: 0;
 }
+
 header .navbar_menu {
     margin-left: 24px;
     margin-right: auto;
 }
+
 header .navbar_menu ul {
     display: flex;
     flex-direction: row;
@@ -137,20 +144,24 @@ header .navbar_menu ul {
     margin-left: 130px;
     list-style: none;
 }
+
 header .navbar_menu li {
     margin-left: 20px;
 }
-header .navbar_menu li a{
+
+header .navbar_menu li a {
     padding: 0;
     line-height: 22px;
     letter-spacing: 0.06em;
     color: #231F20;
     font-size: 12px !important;
 }
-header .nav_menu_right{
+
+header .nav_menu_right {
     margin-left: 100px;
 }
-header .nav_menu_right ul{
+
+header .nav_menu_right ul {
     display: flex;
     flex-direction: row;
     padding-left: 0;
@@ -159,11 +170,13 @@ header .nav_menu_right ul{
     margin-bottom: 0;
     list-style: none;
 }
+
 header .nav_menu_right ul li {
     max-width: 160px;
     display: inline-block;
 }
-header .nav_menu_right ul li a{
+
+header .nav_menu_right ul li a {
     padding: 0;
     font-size: 14px;
     line-height: 22px;
@@ -172,6 +185,7 @@ header .nav_menu_right ul li a{
     flex-direction: row;
     align-items: center;
 }
+
 header .personal a {
     padding: 15px 15px !important;
     border: 0;
@@ -182,4 +196,71 @@ header .personal a {
     text-align: center;
     color: #FFF;
     background: #FAA61A;
+}
+
+header .second_top_menu {
+    border-bottom: 1px solid #EDEDED;
+    padding: 5px;
+}
+
+#slider {
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 150px;
+}
+
+#slider .slide-text-col {
+    height: 100%;
+}
+
+#slider .slide-text-col h6 {
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #5F6369;
+    border: 1px solid #D7D8D6;
+    padding: 8px 9px;
+    display: inline-block;
+    opacity: 0;
+}
+
+#slider .slide-text-col h1 {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    font-size: 38px;
+    color: #231F20;
+    margin-bottom: 20px;
+}
+
+#slider .slide-text-col p {
+    color: #5F6369;
+    letter-spacing: 0.06em;
+    font-weight: normal;
+    font-style: normal;
+}
+#slider .slide-text-col a{
+    margin-top: 34px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background 0.2s;
+    background-color: #F9C20A;
+    border: 0;
+    color: #231F20;
+}
+#slider .slide-img-col{
+    height: 100%;
+}
+#slider .slide-img-col img{
+width: 400px;
+height: 450px;
+
 }
