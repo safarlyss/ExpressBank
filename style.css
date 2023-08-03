@@ -258,6 +258,11 @@ header .second_top_menu {
     color: #231F20;
 }
 
+#slider .slide-text-col a:hover {
+    background: #FAA61A;
+    color: #231F20;
+}
+
 #slider .slide-img-col {
     height: 100%;
     margin-top: -90px;
@@ -268,9 +273,11 @@ header .second_top_menu {
     height: 400px;
 
 }
-#interesting{
+
+#interesting {
     background-color: #F5F5F5;
 }
+
 #interesting .tab {
     overflow: hidden;
     border-bottom: 1px solid #D7D8D6;
@@ -393,7 +400,316 @@ header .second_top_menu {
     border: 0;
     color: #231F20;
 }
+
 #interesting .btn:hover {
+    background: #FAA61A;
+    color: #231F20;
+}
+
+#news .tab {
+    overflow: hidden;
+    border-bottom: 1px solid #D7D8D6;
+    padding-top: 28px;
+}
+
+#news button .active {
+    color: #231F20 !important;
+    border-bottom: 1px solid #5F6369;
+}
+
+#news button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 0px;
+    transition: 0.3s;
+    color: #5F6369;
+    margin-right: 48px;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+}
+
+#news button:hover {
+    color: #231F20;
+    cursor: pointer;
+}
+
+#news .calculator {
+    padding: 41px 0px;
+}
+
+#news .calculator h4 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
+#news .calculator-container {
+    background: #FFFFFF;
+    box-shadow: 0px 16px 56px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    padding: 60px 80px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#news .input-container h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    margin-bottom: 45px;
+}
+
+#news .form-element {
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+#news .group_label {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #5F6369;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+
+#news .range-slider {
+    display: inline-block;
+    padding: 0 10px !important;
+    height: 20px !important;
+    width: 100% !important;
+    position: absolute !important;
+    bottom: -8px !important;
+}
+
+#news .range-slider-inner {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#news .range-slider-hidden {
+    background: #FFFFFF;
+    border: 1px solid #D7D8D6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 75px;
+    padding-left: 34px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-left: 24px;
+    display: none;
+    padding-right: 24px;
+}
+
+.range-slider-rail {
+    width: 100%;
+    background-color: #e2e2e2;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    border-radius: 2px;
+    transform: translateY(-50%);
+}
+
+.range-slider-fill {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    width: 0%;
+    background-color: #faa61a !important;
+}
+
+.range-slider-knob {
+    display: block;
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 1px 1px rgba(0, 0, 0, .2);
+    transform: translate(-50%, -50%);
+    background: #fefefe;
+    left: 0%;
+    cursor: pointer;
+}
+
+.group_param {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -8px;
+    padding: 0;
+    margin: 0;
+}
+
+.group_param li.active_param {
+    color: #231F20;
+    border-bottom: 1px solid #FAA61A;
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.form-element input {
+    background: #FFFFFF;
+    border: 1px solid #D7D8D6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 75px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.form-element {
+    width: 25%;
+}
+
+.form-element select {
+    padding-left: 29px;
+    background: #FFFFFF;
+    border: 1px solid #D7D8D6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 75px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding-right: 24px;
+}
+
+.form-element option {
+    font-weight: normal;
+    display: block;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    min-height: 1.2em;
+}
+
+.group_label {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #5F6369;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+
+.form-element select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+.form-element select {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+
+}
+
+#news .calculator-container .col-5 {
+    border-right: 1px solid #D7D8D6;
+    padding-right: 80px
+}
+
+#news .calculator-container .col-7 {
+    padding: 0 0 0 80px;
+}
+
+#news .calculator-container .col-7 h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    margin-bottom: 45px;
+}
+
+#news .calculator-container .col-7 div {
+    display: table;
+    text-align: left;
+}
+#news .calculator-container .col-7 div .price{
+    font-size: 32px !important;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    display: table-cell;
+    margin-right: 60px;
+    vertical-align: middle;
+    float: left;
+}
+#news .calculator-container .col-7 div p{
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.06em;
+    color: #5F6369;
+    display: block;
+}
+#news .calculator-container .col-7 div .price-two{
+    margin-right: 0;
+    font-weight: normal;
+    font-size: 24px;
+    padding-top: 4px;
+}
+#news .calculator-container .col-7 a{
+    margin-top: 60px !important;
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #231F20;
+    margin: 0;
+    padding: 16px 30px;
+    transition: background 0.2s;
+    background: #F9C20A;
+    border-radius: 8px;
+    border: 0;
+}
+#news .calculator-container .col-7 a:hover{
     background: #FAA61A;
     color: #231F20;
 }
